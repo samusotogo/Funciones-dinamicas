@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css"> 
-   <title>figuras greometricas</title>
+  <link rel="stylesheet" href="style.css">
+  <title>figuras greometricas</title>
 </head>
+
 <body>
   <h1>FIGURAS GEOMETRICAS</h1>
+  <section>
+    <h2>Calcula el are y perimetro de un cuadrado</h2>
+    <form>
+      <label for="InputCuadrado">
+        escribe cuanto mide cada lado de tu cuadrado
+      </label>
+      <input type="number" id="InputCuadrado" />
+    </form>
+    <button type="button" onclick="calcularPerimetroCuadrado()">
+      Calcura el perimetro
+    </button>
+    <button type="button" onclick="calcuralAreaCuadrado()">
+      Calcura el área
+    </button>
+
+
+  </section>
 
   <script src="app.js"></script>
 </body>
+
 </html>
